@@ -1,0 +1,31 @@
+    1  ssh-keygen -t ed25519
+    2  ./Desktop/
+    3  clear
+    4  ssh-keygen -t ed25519
+    5  ls -l .ssh/
+    6  sudo systemctl status sshd
+    7  sudo systemctl status ssh
+    8  sudo apt install openssh-server
+    9  sudo systemctl status ssh
+   10  clear
+   11  ls -l .ssh/
+   12  cat .ssh/id_ed25519.pub
+   13  git clone git@github.com:gaabrieelx/Clase3Arq_Pulido.git
+   14  ls 
+   15  ls Clase3Arq_Pulido/
+   16  git status
+   17  ls Clase3Arq_Pulido/.git/
+   18  ls
+   19  ls Clase3Arq_Pulido/.git/
+   20  git status
+   21  cd Clase3Arq_Pulido/
+   22  git status
+   23  ls
+   24  git add .
+   25  git status
+   26  ls 
+   27  mkdir carpeta_compartida repogit vmubuntu_repo
+   28  ls
+   29  cd vmubuntu_repo/
+   30  ls
+   31  history > historial.txt
